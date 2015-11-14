@@ -4,8 +4,6 @@ const int LED_B=10;           //LED 青
 const int echoPin=8; // Echo Pin
 const int trigPin=7; // Trigger Pin
 
-int H ;
-int R , G , B ;
 int maximumRange = 200; // Maximum range needed
 int minimumRange = 0; // Minimum range needed
 long duration, distance; // Duration used to calculate distance
