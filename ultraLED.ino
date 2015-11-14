@@ -44,12 +44,12 @@ void loop() {
     analogWrite(LED_B, 255);
   }
  
-  if(distance>10 and distance<30){
+  else if(distance<=30){
     analogWrite(LED_R, 150);
     analogWrite(LED_G, 150);
     analogWrite(LED_B, 255);
   }
-  if(distance>30){
+  else{
     analogWrite(LED_R, 255);
     analogWrite(LED_G, 150);
     analogWrite(LED_B, 255);
